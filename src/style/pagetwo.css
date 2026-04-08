@@ -1,0 +1,199 @@
+.mega-title {
+
+}
+#page2{
+  padding: 70px;
+}
+#page3{
+  padding: 70px;
+}
+.mega-title-1-p2{
+  font-family: 'DM Serif Display', serif;
+  font-size: 90px;
+  line-height: 0.95;
+  text-align: center;
+  font-weight: 300;
+}
+.mega-title-2-p2{
+  font-family: 'DM Serif Display', serif;
+  font-size: 70px;
+  line-height: 0.95;
+  text-align: center;
+  font-weight: 300;
+}
+
+.p2-row{
+
+}
+.p2-row .p2-row-heading{
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 60px;
+ text-transform: uppercase; 
+}
+.p2-content-box-left{
+      font-family: 'PT Serif', serif ;
+
+}
+.p2-content-box-left h4{
+  font-size:50px;
+      font-family: 'PT Serif', serif ;
+ text-transform: uppercase; 
+
+}
+.p2-content-box-left p{
+  font-size: 25px;
+
+      font-family: 'PT Serif', serif ;
+  
+}
+
+.p2-row .img-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;  
+}
+
+.p2-row .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     
+  object-position: center; 
+  display: block;       
+}
+.p2-content-right .head{
+      font-family: 'PT Serif', serif ;
+      font-size: 45px;
+      font-weight: 400;
+   /* font-family: "EB Garamond", serif; */
+
+}
+.p2-right-para-1{
+   font-family: "EB Garamond", serif;
+font-weight: 400;
+font-size: 28px;
+}
+
+.p2-right-para-2{
+   font-family: "EB Garamond", serif;
+font-weight: 400;
+font-size: 28px;
+}
+.p2-right-para-3 p{
+   font-family: "EB Garamond", serif;
+   font-weight: bold;
+   font-size: 24px;
+  
+}
+.p2-right-para-4{
+   font-family: "EB Garamond", serif;
+font-style: italic;
+font-weight: 700;
+font-size: 36px;
+}
+
+
+.spread-page .mega-title {
+  min-height: 164px;
+  display: grid;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.editorial-grid,
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.28fr;
+  gap: 28px;
+  min-height: 0;
+  align-items: start;
+}
+
+.story-column,
+.visual-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-column {
+  gap: 24px;
+}
+
+.column-headline {
+  font-family: 'DM Serif Display', serif;
+  font-size: 44px;
+  line-height: 1.18;
+}
+
+.thanks-note {
+  margin-top: 22px;
+  padding-left: 22px;
+  border-left: 1px solid rgba(39, 33, 29, 0.8);
+}
+
+.thanks-title,
+.signature-line {
+  font-family: 'DM Serif Display', serif;
+}
+
+.thanks-title {
+  font-size: 38px;
+  line-height: 1;
+}
+
+.signature-line {
+  margin-top: 10px;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.tall-photo {
+  height: 620px;
+}
+
+.wide-photo {
+  height: 290px;
+}
+
+@media (max-width: 768px) {
+  .spread-page .mega-title {
+    min-height: 0;
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .mega-title {
+    font-size: 42px;
+  }
+
+  .editorial-grid,
+  .bottom-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .column-headline {
+    font-size: 24px;
+  }
+
+  .tall-photo,
+  .wide-photo {
+    height: 240px;
+  }
+
+  .thanks-note {
+    margin-top: 0;
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid rgba(39, 33, 29, 0.8);
+    padding-top: 14px;
+  }
+
+  .thanks-title {
+    font-size: 28px;
+  }
+
+  .signature-line {
+    font-size: 24px;
+  }
+}

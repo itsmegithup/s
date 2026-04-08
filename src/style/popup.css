@@ -1,0 +1,88 @@
+/* Dark Overlay with Blur */
+.wedding-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  z-index: 9999;
+    font-family: "DM Serif Display", serif !important;
+}
+
+/* The Popup Card */
+.wedding-card {
+  background-color: #FFF9F0;
+  max-width: 650px;
+  width: 100%;
+  padding: 60px 30px; /* Mobile Padding */
+  border-radius: 40px; /* Rounding from image */
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+/* Title Responsive Sizing */
+.wedding-title {
+  color: #1a1a1a; 
+    font-family: 'PT Serif', serif !important;
+  font-size: 30px; /* Mobile size */
+  font-weight: 700;
+}
+
+/* Description Text Responsive Sizing */
+.description-text {
+  color: #1a1a1a; 
+  font-size: 20px; 
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: start;
+   font-family: "EB Garamond", serif;
+}
+.description-text strong {
+  font-weight: 700;
+}
+/* The Gold Button */
+.btn-gold-action {
+  background-color: #D4A742;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-family: serif;
+  text-transform: uppercase;
+     font-family: 'PT Serif', serif;
+  border-radius: 12px;
+  transition: 0.3s;
+  width: auto;
+}
+
+.btn-gold-action:hover {
+  background-color: #c49635;
+  transform: scale(1.02);
+}
+
+.close-x {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* Desktop Adjustments (Tablet and up) */
+@media (min-width: 768px) {
+  .wedding-card {
+    padding: 80px 60px;
+  }
+  .wedding-title {
+    /* font-size: 3.5rem; */
+  }
+  .description-text {
+  
+  }
+  .btn-gold-action {
+    font-size: 1.7rem;
+    padding: 15px 50px;
+  }
+}

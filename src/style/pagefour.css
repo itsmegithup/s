@@ -1,0 +1,84 @@
+.page-four {
+  gap: 14px;
+}
+
+.page-four .mega-title {
+  font-size: 74px;
+}
+
+.page-four .reply-row {
+  margin-top: 6px;
+}
+
+.page-four .section-rule {
+  margin: 0 0 6px;
+}
+
+.closing-grid {
+  display: grid;
+  grid-template-columns: 0.94fr 1.06fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.split-feature-grid {
+  display: grid;
+  grid-template-columns: 0.96fr 1.04fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.illustration-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.note-feature {
+  gap: 24px;
+}
+
+.rings-photo {
+  width: 360px;
+  margin: 10px auto 18px;
+}
+
+.large-illustration {
+  width: 430px;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.feature-photo {
+  height: 360px;
+}
+
+.bottom-photo {
+  margin-top: 28px;
+}
+
+@media (max-width: 768px) {
+  .closing-grid,
+  .split-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .page-four .mega-title {
+    font-size: 42px;
+  }
+
+  .rings-photo,
+  .large-illustration {
+    width: 240px;
+  }
+
+  .feature-photo {
+    height: 260px;
+  }
+
+  .bottom-photo {
+    margin-top: 0;
+  }
+}
